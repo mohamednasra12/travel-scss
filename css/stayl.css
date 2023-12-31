@@ -427,7 +427,6 @@ button.btn.btn-light:hover {
 .text-text h4 {
   color: #0a909b;
   font-family: "bold";
-  
 }
 .text-text h3 {
   font-family: "bold";
@@ -449,7 +448,32 @@ button.btn.btn-light:hover {
 img.icon {
   position: absolute;
   top: -30px;
+  animation: koko 2s ease infinite;
 }
+@keyframes koko {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
 .servers-card h4 {
   font-family: "bold";
   margin-top: 14px;
@@ -472,11 +496,10 @@ img.icon {
   width: 100%;
 }
 .blog-card:hover img {
-  animation:  photo 1s linear forwards;
+  animation: photo 1s linear forwards;
 }
 @keyframes photo {
   from {
-   
     transform: scale(1);
     margin-bottom: 0px;
   }
@@ -486,26 +509,29 @@ img.icon {
   }
 }
 .all {
-  animation: sup 3s linear infinite; 
+  animation: sup 3s linear infinite;
 }
 @keyframes sup {
-  0%{
-    transform: translatey(3px);
+  0%, 7% {
+    transform: rotateZ(0);
   }
-  20%{
-    transform: translatey(6px);
+  15% {
+    transform: rotateZ(-15deg);
   }
-  40%{
-    transform: translatey(12px);
+  20% {
+    transform: rotateZ(10deg);
   }
-  60%{
-    transform: translatey(18px);
+  25% {
+    transform: rotateZ(-10deg);
   }
-  80%{
-    transform: translatey(22px);
+  30% {
+    transform: rotateZ(6deg);
   }
-  100%{
-    transform: translatey(28px);
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
   }
 }
 .blog-card p {
@@ -550,7 +576,7 @@ a.more {
 .search input {
   outline: unset;
   border: unset;
-  width: 75%;
+  width: 73%;
 }
 button.tele {
   background-color: #0a909b;
@@ -625,7 +651,7 @@ hr:not([size]) {
 .company h5 {
   transition: 0.7s;
 }
-.company h5:hover{
+.company h5:hover {
   color: #0a909b;
   animation: text 5s linear forwards;
 }
@@ -655,11 +681,18 @@ h5.nom {
   font-family: "bold";
 }
 .side {
-  margin-top: 100px;
-  margin-right: -181px;
   position: fixed;
-  bottom: 5px; 
+  bottom: 5px;
   z-index: 10;
+  animation: uper 2s linear infinite;
+}
+@keyframes uper {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-15px);
+  }
 }
 img.foote-logo {
   width: 85%;
@@ -680,9 +713,9 @@ button.btn.sec-btn.nas {
   text-decoration: none;
   color: white;
 }
-.end-page h4{
-font-family: "regular";
-font-size: 1rem;
+.end-page h4 {
+  font-family: "regular";
+  font-size: 1rem;
 }
 .end-page span {
   color: #c57016;
@@ -690,6 +723,35 @@ font-size: 1rem;
 button.navbar-toggler {
   background-color: #0a909b;
 }
+  .text-text h4::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+ .text-text h4:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+ .text-text h4::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: hsl(184.55deg 87.88% 32.35% / 23%);
+  transition: transform .3s ease;
+  border-radius: 50px;
+}
+
+
+ .text-text h4 {
+  position: relative;
+  z-index: 50;
+} 
 @media (min-width: 1600px) and (max-width: 2600px) {
 }
 
@@ -840,36 +902,36 @@ button.navbar-toggler {
   }
   .input {
     flex-wrap: wrap;
-}
-.footer-main {
-  height: 100%;
-}
-.swiper-slide {
-  margin-right: 38px;
-}
-.search {
-  width: 100% !important;
-  height: 100%;
-}
-button.tele {
- display: block;
- margin-inline-start: auto;
- width: 100% !important;
- margin-top: 10px;
-}
-img.foote-logo {
-  margin-top: unset !important;
-}
-.end-page {
-  display: block;
-}
-button.btn.sec-btn.nas {
-  width: 100%;
-}
-section.sec-one {
-  padding: 2rem;
-}
-.text-sed-one {
-  width: 100%;
-}
+  }
+  .footer-main {
+    height: 100%;
+  }
+  .swiper-slide {
+    margin-right: 38px;
+  }
+  .search {
+    width: 100% !important;
+    height: 100%;
+  }
+  button.tele {
+    display: block;
+    margin-inline-start: auto;
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  img.foote-logo {
+    margin-top: unset !important;
+  }
+  .end-page {
+    display: block;
+  }
+  button.btn.sec-btn.nas {
+    width: 100%;
+  }
+  section.sec-one {
+    padding: 2rem;
+  }
+  .text-sed-one {
+    width: 100%;
+  }
 }
