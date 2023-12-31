@@ -468,6 +468,46 @@ img.icon {
   margin-top: 10px;
   font-size: 1.2rem;
 }
+.blog-card img {
+  width: 100%;
+}
+.blog-card:hover img {
+  animation:  photo 1s linear forwards;
+}
+@keyframes photo {
+  from {
+   
+    transform: scale(1);
+    margin-bottom: 0px;
+  }
+  to {
+    transform: scale(1.03);
+    margin-bottom: 20px;
+  }
+}
+.all {
+  animation: sup 3s linear infinite; 
+}
+@keyframes sup {
+  0%{
+    transform: translatey(3px);
+  }
+  20%{
+    transform: translatey(6px);
+  }
+  40%{
+    transform: translatey(12px);
+  }
+  60%{
+    transform: translatey(18px);
+  }
+  80%{
+    transform: translatey(22px);
+  }
+  100%{
+    transform: translatey(28px);
+  }
+}
 .blog-card p {
   font-family: "regular";
   color: #9ca2ac;
@@ -642,6 +682,7 @@ button.btn.sec-btn.nas {
 }
 .end-page h4{
 font-family: "regular";
+font-size: 1rem;
 }
 .end-page span {
   color: #c57016;
