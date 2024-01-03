@@ -792,12 +792,17 @@ button.navbar-toggler {
     transform: rotateZ(0);
   }
 }
+
 .Services-section {
-  background-image: url(../img/sec-2.png);
+  background-image: url(../img/serves.png);
   width: 100%;
   height: 224px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.Social h3 {
+  font-family: "bold";
+  color: white;
 }
 .Services-section {
   padding: 1rem;
@@ -1197,6 +1202,7 @@ button.navbar-toggler {
   color: #ededed;
   font-size: 0.8rem;
   font-family: "regular";
+  margin-bottom: 0;
 }
 .text-blac {
   display: flex;
@@ -2323,7 +2329,346 @@ button.btn.call-us {
 .play-button-wrapper .play-gif-5 svg {
   margin-right: 14px;
 }
+.sections-card {
+  display: flex;
+  gap: 17px;
+}
+.sections-card img {
+  width: 27%;
+  height: 76px;
+}
+.sections-text h4 {
+  font-family: "bold";
+  font-size: 1rem;
+  width: 80%;
 
+}
+.sections-text p {
+  font-family: "regular";
+  color: #8C8896;
+}
+.hash-text a {
+  background-color: #d9d9d957;
+  width: 26%;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 15px;
+  color: #605B6C;
+  font-family: "reguLar";
+  margin-top: 10px;
+  text-decoration: none;
+}
+.hash-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hash h4 {
+  font-family: "bold";
+  padding: 1rem 0;
+}
+.sections h4 {
+  font-family: "bold";
+}
+h4.sections-hed {
+  padding: 1rem 0;
+}
+ul.sections-pionts {
+  font-family: 'regular';
+  font-size: 1.2rem;
+}
+ul.sections-pionts li {
+  padding: 0.4rem 0 ;
+}
+::marker {
+  color: #0a909b;
+}
+.card-blog-right h4 {
+  font-family: "bold";
+  width: 40%;
+}
+.card-blog-right p {
+  font-family: "regular";
+  color: #9CA2AC;
+  width: 88%;
+}
+.card-blog-right h4 {
+  font-family: "semibold";
+  width: 90%;
+  margin: 1rem 0;
+}
+.card-right-all {
+  display: flex;
+  gap: 35px;
+}
+a.red-mor {
+  color: black;
+  font-family: "regular";
+  text-decoration: none;
+}
+.details-hed {
+  text-align: center;
+  font-family: "bold";
+  margin-top: 3rem;
+}
+.sup-hed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 44%;
+  margin: auto;
+  margin-top: 24px;
+}
+.img-sup {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.icons-sup a{
+  font-size: 1.3rem;
+  color: #0a909b;
+  text-decoration: none;
+}
+.icons-sup svg {
+  background-color: #d0d2d771;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.icons-sup svg:hover {
+  animation: spin 3s linear backwards;
+
+}
+.img-sup h5 {
+  margin-bottom: 0;
+}
+
+.details-sec p {
+font-family: "regular";
+color: #6f777bb4;
+margin-top: 2rem;
+}
+.details-sec {
+  margin: auto;
+}
+img.sec-two {
+  margin: auto;
+  width: 100%;
+}
+.details-sec {
+  margin-top: 5rem;
+}
+.end-black {
+  display: flex;
+  align-items: center;
+  margin-right: 47px;
+  gap: 22px;
+  margin-top: 3rem;
+}
+.end-black button {
+  background-color: #0a909b;
+  padding: 0.5rem 2rem;
+  font-family: "regular";
+}
+.card-blog-right {
+  position: relative;
+}
+img.cele {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+/* TRAVEL MOBILE  */
+
+/*  */
+.Contact-us-now {
+  background-color: rgb(10 144 155 / 2%);
+}
+.Contact-us-now .contant {
+  text-align: center;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Contact-us-now .contant h4 {
+  font-size: 30px;
+  font-family: "bold";
+}
+.Contact-us-now .contant p {
+  font-size: 14px;
+  font-family: "regular";
+  color: #9ca2ac;
+  width: 50%;
+}
+.Contact-us-now .email .icon {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(#0a909b, #0a909b33);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.Contact-us-now .email {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  height: 100%;
+  margin: 1rem 0;
+}
+.Contact-us-now .email h5 {
+  font-size: 18px;
+  font-family: "bold";
+  margin: 1rem 0;
+}
+.Contact-us-now .email p {
+  font-size: 14px;
+  font-family: "bold";
+  margin-bottom: 1rem;
+  color: #9ca2ac;
+}
+.Contact-us-now .email a {
+  font-size: 18px;
+  font-family: "bold";
+  color: #0a909b;
+  text-decoration: none;
+}
+.Contact-us-now .email a h6 {
+  font-size: 18px;
+  font-family: "bold";
+  margin-bottom: 1rem;
+}
+.Contact-us-now .message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.Contact-us-now .message .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Contact-us-now .message .title h4 {
+  font-size: 28px;
+  font-family: "bold";
+}
+.Contact-us-now .message .title p {
+  font-size: 14px;
+  font-family: "regular";
+  color: #9ca2ac;
+}
+.Contact-us-now .message .form-group {
+  margin: 1.5rem 0;
+}
+.Contact-us-now .message .form-group input {
+  padding: 1rem;
+}
+.Contact-us-now .message .form-group label {
+  font-size: 15px;
+  font-family: "bold";
+}
+.Contact-us-now .message .form-group ::placeholder {
+  font-size: 14px;
+  font-family: "regular";
+  color: #5f626b;
+}
+.Contact-us-now .message .form-group textarea {
+  padding: 1rem 1rem 4rem;
+}
+.Contact-us-now .form-check .form-check-input {
+  float: right;
+}
+.Contact-us-now .form-check .form-check-label {
+  margin: 0 1.5rem;
+}
+.Contact-us-now .form-check .form-check-label {
+  margin: 0 1.5rem;
+}
+.Contact-us-now .btn-info {
+  background-color: #0a909b;
+  border-radius: 38px;
+  padding: 1rem 3rem;
+  color: white;
+  font-size: 14px;
+  font-family: "regular";
+  text-align: center;
+  box-shadow: none;
+  margin: 2rem 0;
+}
+.Contact-us-now .message a {
+  display: flex;
+  justify-content: center;
+}
+.Contact-us-now .btn-info svg {
+  margin: 0 1rem 0 0;
+}
+.Contact-us-now .message .map {
+  margin: 2rem 0;
+}
+.Contact-us-now .message .map img {
+  width: 100%;
+}
+.explain-company .contant {
+  margin: 3rem 0;
+}
+.explain-company .contant h4 {
+  font-size: 40px;
+  font-family: "bold";
+  margin: 1rem 0 2rem;
+}
+.explain-company .contant p {
+  font-size: 14px;
+  font-family: "regular";
+  color: #5f626b;
+  line-height: 1.8rem;
+}
+/*  */
+
+/* explain-company */
+.explain-company .accordion .accordion-button {
+  background-color: white;
+  box-shadow: none;
+  color: black;
+  font-size: 20px;
+  font-family: "bold";
+  justify-content: space-between;
+}
+.explain-company .accordion .accordion-item {
+  border: 1px solid #a8a8a8;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+}
+.explain-company .accordion .accordion-body {
+  padding: 0 1rem;
+}
+.explain-company .accordion .accordion-body p {
+  font-size: 15px;
+  font-family: "regular";
+  color: #66686d;
+  line-height: 1.8rem;
+}
+
+
+.accordion-button::after {
+  
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='14' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z'/%3E%3C/svg%3E");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='14' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+}
+/* media */
 @media (min-width: 1600px) and (max-width: 2600px) {
 }
 
@@ -2331,6 +2676,54 @@ button.btn.call-us {
 }
 
 @media only screen and (max-width: 991.98px) {
+  .explain-company .describe-page .name h6 {
+    font-size: 11px;
+  }
+  .explain-company .describe-page .name p {
+    font-size: 10px;
+  }
+  .explain-company .contant h4 {
+    font-size: 30px;
+  }
+  .explain-company .contant p {
+    font-size: 12px;
+  }
+  .Contact-us-now .contant h4 {
+    font-size: 25px;
+  }
+  .Contact-us-now .contant p {
+    font-size: 12px;
+  }
+  .Contact-us-now .email h5 {
+    font-size: 16px;
+  }
+  .Contact-us-now .email p {
+    font-size: 12px;
+  }
+  .Contact-us-now .email a h6 {
+    font-size: 16px;
+  }
+  .Contact-us-now .message .title h4 {
+    font-size: 25px;
+  }
+  .Contact-us-now .message .title p {
+    font-size: 12px;
+  }
+  .Contact-us-now .message .form-group label {
+    font-size: 13px;
+  }
+  .Contact-us-now .message .form-group input {
+    padding: 0.5rem;
+  }
+  .Contact-us-now .email {
+    height: auto;
+  }
+  .explain-company .describe-page .name-two h3 {
+    font-size: 30px;
+  }
+  .explain-company .accordion .accordion-button {
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .card {
@@ -2614,4 +3007,39 @@ button.btn.call-us {
   .fetuers-img img{
     width: 100%;
   }
+  .card-right-all {
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.card-blog-right img {
+  width: 100%;
+}
+.details-sec img {
+  width: 100%;
+}
+.sup-hed {
+  flex-wrap: wrap;
+}
+img.cele {
+  width: 16%;
+}
+.explain-company .describe-page .name-two h3 {
+  font-size: 20px;
+}
+.explain-company .contant h4 {
+  font-size: 25px;
+}
+.explain-company .contant p {
+  font-size: 11px;
+}
+.explain-company .describe-page .name h6 {
+  font-size: 10px;
+}
+.Contact-us-now .contant p {
+  font-size: 11px;
+  width: 90%;
+}
+.explain-company .accordion .accordion-button {
+  font-size: 10px;
+}
 }
