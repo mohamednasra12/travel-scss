@@ -1342,6 +1342,9 @@ hr.git {
 .text-app h4 {
   font-family: "bold";
 }
+.details-sec img {
+  width: 100%;
+}
 .app-store p {
   color: #9ca2ac;
   font-family: "regular";
@@ -1415,6 +1418,13 @@ img.app-img {
 .text-fetuers img {
   margin-left: 10px;
 }
+.card-blo {
+  color: unset;
+  text-decoration: none;
+}
+.card-blo:hover {
+  color: unset;
+}
 /* mahmoud */
 
 /*  information about us*/
@@ -1423,13 +1433,16 @@ img.app-img {
 }
 .explain-company .img-company img {
   width: 100%;
-  height: 30vh;
+  height: 250px;
 }
 .explain-company .describe-page {
   position: absolute;
   top: 60px;
   right: 50px;
   color: white;
+}
+img.big {
+  width: 100%;
 }
 .explain-company .describe-page .name {
   display: flex;
@@ -1445,8 +1458,7 @@ img.app-img {
   color: #cecece;
 }
 .explain-company .describe-page .name-two h3 {
-  font-size: 35px;
-  font-family: "extrabold";
+  font-family: "bold";
 }
 .Company-features {
   margin-top: 4rem;
