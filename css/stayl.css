@@ -2759,6 +2759,9 @@ button.btn.sec-btn {
 .cricel-way {
   background-color: unset;
 }
+.Social-img {
+  flex-wrap: wrap;
+}
 
 }
 
