@@ -35,7 +35,7 @@ nav.navbar.navbar-expand-lg {
   box-shadow: -1px -2px 6px 1px;
 }
 ul.navbar-nav {
-  margin-right: auto;
+  margin: auto;
 }
 button.btn.frist-btn {
   background-color: #0a909b;
@@ -3211,4 +3211,12 @@ img.world {
 .completion_projects {
   margin-top: 0;
 }
+.black-sec {
+  height: 100%;
 }
+.end-black {
+  margin: 0;
+  gap: 10px;
+}
+}
+
