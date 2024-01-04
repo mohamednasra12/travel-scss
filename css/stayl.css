@@ -45,10 +45,11 @@ button.btn.frist-btn {
   font-family: "regular";
 }
 button.btn.frist-btn:hover {
-  background-color: white;
-  color: #0a909b;
-  border: 1px solid #0a909b;
+  background-color: rgb(148, 146, 146);
+  color: white;
+  border: 1px solid white;
 }
+
 a.nav-link {
   color: black !important;
   font-family: "regular";
@@ -1358,7 +1359,6 @@ hr.git {
 }
 .card-seo img {
   animation: koko 2s ease infinite;
-
 }
 .img-seo img {
   animation: moj 5s ease infinite;
@@ -1623,6 +1623,14 @@ img.big {
 }
 .some-questions .img-questions img {
   width: 60%;
+  animation: uper 5s linear infinite;
+}
+img.world {
+  animation: uper 5s linear infinite;
+
+}
+.btn a {
+  text-decoration: none;
 }
 .some-questions .talk-now {
   background-color: #0a909b;
@@ -2353,11 +2361,10 @@ button.btn.call-us {
   font-family: "bold";
   font-size: 1rem;
   width: 80%;
-
 }
 .sections-text p {
   font-family: "regular";
-  color: #8C8896;
+  color: #8c8896;
 }
 .hash-text a {
   background-color: #d9d9d957;
@@ -2365,7 +2372,7 @@ button.btn.call-us {
   text-align: center;
   padding: 0.5rem;
   border-radius: 15px;
-  color: #605B6C;
+  color: #605b6c;
   font-family: "reguLar";
   margin-top: 10px;
   text-decoration: none;
@@ -2387,11 +2394,11 @@ h4.sections-hed {
   padding: 1rem 0;
 }
 ul.sections-pionts {
-  font-family: 'regular';
+  font-family: "regular";
   font-size: 1.2rem;
 }
 ul.sections-pionts li {
-  padding: 0.4rem 0 ;
+  padding: 0.4rem 0;
 }
 ::marker {
   color: #0a909b;
@@ -2402,7 +2409,7 @@ ul.sections-pionts li {
 }
 .card-blog-right p {
   font-family: "regular";
-  color: #9CA2AC;
+  color: #9ca2ac;
   width: 88%;
 }
 .card-blog-right h4 {
@@ -2437,7 +2444,7 @@ a.red-mor {
   align-items: center;
   gap: 20px;
 }
-.icons-sup a{
+.icons-sup a {
   font-size: 1.3rem;
   color: #0a909b;
   text-decoration: none;
@@ -2449,16 +2456,15 @@ a.red-mor {
 }
 .icons-sup svg:hover {
   animation: spin 3s linear backwards;
-
 }
 .img-sup h5 {
   margin-bottom: 0;
 }
 
 .details-sec p {
-font-family: "regular";
-color: #6f777bb4;
-margin-top: 2rem;
+  font-family: "regular";
+  color: #6f777bb4;
+  margin-top: 2rem;
 }
 .details-sec {
   margin: auto;
@@ -2604,6 +2610,7 @@ img.cele {
 }
 .Contact-us-now .form-check .form-check-label {
   margin: 0 1.5rem;
+  font-family: "regular";
 }
 .Contact-us-now .form-check .form-check-label {
   margin: 0 1.5rem;
@@ -2672,19 +2679,87 @@ img.cele {
   line-height: 1.8rem;
 }
 
-
 .accordion-button::after {
-  
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='14' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z'/%3E%3C/svg%3E");
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='14' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+}
+.completion_projects .progress_bar_project .percentage_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6e6e6;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  position: relative;
+  transition: .4s linear;
+  -moz-transition: .4s linear;
+  -ms-transition: .4s linear;
+  -o-transition: .4s linear;
+  -webkit-transition: .4s linear;
+  transition-property: width,background-color;
+  -moz-transition-property: width,background-color;
+  -ms-transition-property: width,background-color;
+  -o-transition-property: width,background-color;
+  -webkit-transition-property: width,background-color;
+  width: 100%;
+}
+.completion_projects .progress_bar_project {
+  margin-bottom: 1rem;
+}
+.justify-content-between {
+  justify-content: space-between!important;
+}
+.completion_projects {
+  margin-top: 7rem;
+}
+.progress_bar_project h6 {
+  font-family: "regular";
+}
+.completion_projects .progress_bar_project .percentage_bar .bar {
+  background: #06797e;
+  border-radius: 8px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "regular";
+  color: #3f3f44;
+}
+.arrow a {
+  color: #06797e;
 }
 /* media */
 @media (min-width: 1600px) and (max-width: 2600px) {
 }
 
 @media only screen and (max-width: 1200px) {
+  .nav-link button.btn.frist-btn {
+    font-size: 0.5rem;
+}
+li.lang {
+  margin-top: 7px;
+}
+.text-sed-one {
+  width: 100%;
+}
+button.btn.sec-btn {
+  margin-bottom: 10px;
+}
+.search input {
+  width: 72%;
+}
+.Services-card p {
+  font-size: 0.7rem;
+}
+.Services-card h4 {
+  font-size: 0.8rem;
+}
+.cricel-way {
+  background-color: unset;
+}
+
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -2736,6 +2811,56 @@ img.cele {
   .explain-company .accordion .accordion-button {
     font-size: 15px;
   }
+  .parent {
+    background-color: white;
+    margin-top: 34px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 21px;
+    position: relative;
+    z-index: 1;
+    margin-right: 17px;
+  }
+  .text-text {
+    width: 100%;
+  }
+  .search input {
+    width: 71%;
+  }
+  .footer-main {
+    height: 100%;
+  }
+  .text-sed-one {
+    width: 100%;
+  }
+  .all-cricle {
+    flex-wrap: wrap;
+    margin-top: -2rem;
+  }
+  .all-cricle .cricel-way:nth-child(odd){
+    animation: unset;
+  }
+  .all-cricle .cricel-way:nth-child(even){
+    animation: unset;
+    margin-top: 1rem;
+
+  }
+  .Services-section {
+    height: 100%;
+  }
+  .completion_projects {
+    margin-top: 0;
+  }
+  .text-seo p {
+    width: 100%;
+  }
+  .nai {
+    flex-wrap: wrap;
+  }
+  .logo p {
+    width: 100%;
+  }
+ 
 }
 @media only screen and (max-width: 600px) {
   .card {
@@ -2831,8 +2956,8 @@ img.cele {
     display: block;
   }
   .center {
-    margin-top: 10px;
-    width: 100%;
+    width: 25%;
+    margin: 14px auto;
   }
   .text-1 {
     margin-right: unset !important;
@@ -3016,42 +3141,74 @@ img.cele {
   .fetuers {
     flex-wrap: wrap;
   }
-  .fetuers-img img{
+  .fetuers-img img {
     width: 100%;
   }
   .card-right-all {
     flex-wrap: wrap;
     margin-top: 1rem;
+  }
+  .card-blog-right img {
+    width: 100%;
+  }
+  .details-sec img {
+    width: 100%;
+  }
+  .sup-hed {
+    flex-wrap: wrap;
+  }
+  img.cele {
+    width: 16%;
+  }
+  .explain-company .describe-page .name-two h3 {
+    font-size: 20px;
+  }
+  .explain-company .contant h4 {
+    font-size: 25px;
+  }
+  .explain-company .contant p {
+    font-size: 11px;
+  }
+  .explain-company .describe-page .name h6 {
+    font-size: 10px;
+  }
+  .Contact-us-now .contant p {
+    font-size: 11px;
+    width: 90%;
+  }
+  .explain-company .accordion .accordion-button {
+    font-size: 10px;
+  }
+  .Services-section {
+    height: 100%;
+  }
+  .Services-card img {
+    width: 12%;
+  }
+  .Services-card img {
+    top: 5px;
 }
-.card-blog-right img {
+.explain-company .img-company img {
+  height: 144px;
+}
+.Travel-system-development {
+  margin-top: 17rem;
+}
+.experience-Site .add-accpunt p {
   width: 100%;
 }
-.details-sec img {
+.some-questions .talk-now {
   width: 100%;
+  margin-bottom: 1rem;
 }
-.sup-hed {
-  flex-wrap: wrap;
+.some-questions .questions-Answr .accordion .accordion-button h5 {
+  font-size: 13px;
 }
-img.cele {
-  width: 16%;
+img.world {
+  width: 100%;
+  margin-top: 35rem;
 }
-.explain-company .describe-page .name-two h3 {
-  font-size: 20px;
-}
-.explain-company .contant h4 {
-  font-size: 25px;
-}
-.explain-company .contant p {
-  font-size: 11px;
-}
-.explain-company .describe-page .name h6 {
-  font-size: 10px;
-}
-.Contact-us-now .contant p {
-  font-size: 11px;
-  width: 90%;
-}
-.explain-company .accordion .accordion-button {
-  font-size: 10px;
+.completion_projects {
+  margin-top: 0;
 }
 }
