@@ -55,9 +55,36 @@ a.nav-link {
   font-family: "regular";
   margin-left: 21px;
 }
-a.nav-link:active {
-  font-family: "bold";
+.nav-link.active {
+  font-family: "bold" !important;
   color: black !important;
+  border-bottom: 2px solid #000000;
+}
+ul.dropdown-menu.show {
+  background-color: #0a909b;
+ transition: 0.7s;
+  font-family: "regular";
+  box-shadow: 0px 0px 9px #00000054;
+}
+.nav-link-1 {
+  background-color: unset;
+  border: unset;
+  color: white;
+  padding: 0.5rem;
+  font-family: "regular";
+}
+.nav-link-1 img {
+  margin-right: 10px;
+}
+.nav-link-1.active {
+  color: rgb(255, 255, 255) !important;
+  border-bottom: 2px solid #ffffff;
+}
+a.dropdown-item {
+  color: white !important;
+}
+a.dropdown-item:hover {
+  background-color: #0000008f;
 }
 li.lang {
   margin-top: 15px;
@@ -2730,6 +2757,29 @@ img.cele {
 .arrow a {
   color: #06797e;
 }
+.img-plane  {
+  animation: moj 5s ease infinite;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #06797e; 
+  border-radius: 4px;
+  transition: 0.7s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d3b65c; 
+ 
+}
+
 /* media */
 @media (min-width: 1600px) and (max-width: 2600px) {
 }
@@ -2761,6 +2811,13 @@ button.btn.sec-btn {
 }
 .Social-img {
   flex-wrap: wrap;
+}
+.Services-card img {
+  width: 20%;
+  top: -15px;
+}
+.Services-card {
+  padding: 0.5rem;
 }
 
 }
@@ -2863,6 +2920,30 @@ button.btn.sec-btn {
   .logo p {
     width: 100%;
   }
+  .web-site-text {
+    flex-wrap: wrap;
+  }
+  .fetuers {
+    flex-wrap: wrap;
+  }
+  .text-what-do p {
+    width: 100%;
+  }
+  .input {
+    margin-top: 10px;
+  }
+  .black-sec {
+    height: 100%;
+  }
+  .What-do-card p {
+    font-size: 0.7rem;
+  }
+  .Types-of-services .card-serves .contant-card p {
+    font-size: 0.7rem;
+  }
+  img.world {
+    margin-top: 10px;
+  }
  
 }
 @media only screen and (max-width: 600px) {
@@ -2906,8 +2987,9 @@ button.btn.sec-btn {
     display: block;
   }
   .img-box {
-    text-align: center;
-  }
+    text-align: start;
+    margin-bottom: 15px;
+}
   .choose-hotel p {
     font-size: 7px;
     color: #ededed78;
@@ -3007,7 +3089,8 @@ button.btn.sec-btn {
   }
   .input {
     flex-wrap: wrap;
-  }
+    margin-top: 17px;
+}
   .footer-main {
     height: 100%;
   }
@@ -3017,7 +3100,8 @@ button.btn.sec-btn {
   .search {
     width: 100% !important;
     height: 100%;
-  }
+    margin-top: 15px;
+}
   button.tele {
     display: block;
     margin-inline-start: auto;
@@ -3189,7 +3273,8 @@ button.btn.sec-btn {
     width: 12%;
   }
   .Services-card img {
-    top: 5px;
+    top: -24px;
+   
 }
 .explain-company .img-company img {
   height: 144px;
@@ -3209,7 +3294,6 @@ button.btn.sec-btn {
 }
 img.world {
   width: 100%;
-  margin-top: 35rem;
 }
 .completion_projects {
   margin-top: 0;
@@ -3221,5 +3305,22 @@ img.world {
   margin: 0;
   gap: 10px;
 }
+.nav-link-1 {
+  font-size: 0.7rem;
+}
+button#transportation-tab {
+  font-size: 0.5rem;
+}
+.line::after {
+
+  top: 54px;
+}
+.add-accpunt button.btn.btn-light {
+  margin-bottom: 1rem;
+}
+.Company-features .img-card {
+  height: 100%;
+}
+
 }
 
