@@ -99,6 +99,21 @@ li.lang {
   color: white;
   width: 39%;
 }
+.web-site {
+  margin-top: 4rem;
+}
+.B2B {
+  margin-top: 3rem;
+}
+.save-time {
+  margin-top: 5rem !important;
+}
+.travel-mobile {
+  margin-top: 6rem;
+}
+.Contact-us-now {
+  margin-top: 4rem;
+}
 
 section.sec-one {
   background-color: #19b2c0;
@@ -108,6 +123,7 @@ section.sec-one {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5rem;
+  margin-top: 3rem;
 }
 .text-sed-one h1 {
   padding-top: 53px;
@@ -508,6 +524,9 @@ img.icon {
   100% {
     transform: rotateZ(0);
   }
+}
+.Services {
+  margin-top: 3rem;
 }
 svg.svg-inline--fa.fa-bars {
   color: white;
