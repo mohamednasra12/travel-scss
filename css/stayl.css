@@ -1651,6 +1651,7 @@ img.big {
   font-family: "bold";
   width: 70%;
   margin-bottom: 1rem;
+  color: white;
 }
 .experience-Site .add-accpunt p {
   color: #ededed;
@@ -2768,8 +2769,17 @@ img.cele {
 .justify-content-between {
   justify-content: space-between!important;
 }
-.completion_projects {
-  margin-top: 7rem;
+.text-prog {
+  margin-top: 2rem;
+}
+.text-prog p {
+  color:  #656b78;
+  font-family: "regular";
+  width: 70%;
+}
+.text-prog h4 {
+  
+  font-family: "bold";
 }
 .progress_bar_project h6 {
   font-family: "regular";
