@@ -509,6 +509,10 @@ img.icon {
     transform: rotateZ(0);
   }
 }
+svg.svg-inline--fa.fa-bars {
+  color: white;
+  margin-top: 5px;
+}
 
 .servers-card h4 {
   font-family: "bold";
