@@ -2801,7 +2801,7 @@ img.cele {
   animation: moj 5s ease infinite;
 }
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 9px;
 }
 
 /* Track */
