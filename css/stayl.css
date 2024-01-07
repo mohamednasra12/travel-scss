@@ -97,7 +97,7 @@ li.lang {
 
 section.sec-one {
   background-color: #19b2c0;
-  height: 700px;
+  height: 550px;
   position: relative;
   background-image: url(../img/main.png);
   background-repeat: no-repeat;
@@ -2944,6 +2944,10 @@ button.btn.sec-btn {
   img.world {
     margin-top: 10px;
   }
+  .startnow-1 h4 {
+    width: 100%;
+    font-size: 1rem;
+  }
  
 }
 @media only screen and (max-width: 600px) {
@@ -3197,7 +3201,7 @@ button.btn.sec-btn {
     pointer-events: auto;
     background-color: #f8f8f8;
     position: absolute;
-    top: -58px;
+    top: -30px;
     border-radius: 50%;
     width: 70px;
     height: 70px;
