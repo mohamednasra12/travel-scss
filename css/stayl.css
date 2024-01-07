@@ -33,6 +33,11 @@ body {
 /* nav */
 nav.navbar.navbar-expand-lg {
   box-shadow: -1px -2px 6px 1px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
 }
 ul.navbar-nav {
   margin: auto;
@@ -516,7 +521,7 @@ img.icon {
   width: 100%;
   left: 0;
   background-color: #1e2023;
-  z-index: 100;
+  z-index: 900;
 }
 .blog-card h4 {
   font-family: "bold";
